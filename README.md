@@ -1,8 +1,6 @@
 # Alura Challenge 1 de Data Science
 
-## Objetivo:
-
-O objetivo deste portifólio é focar no meu desenvolvimento em Data Science e Machine Learning.
+## Status: Em Desenvolvimento
 
 ## Descrição do Challenge:
 
@@ -37,6 +35,34 @@ Após a solicitação dos dados iniciarei a exploração, tratamento dos dados e
 
 
 
+## Importando as Bibliotecas Básicas
+Para iniciar o projeto decidi começar importando as seguintes bibliotecas:
 
+. Pandas
 
+. Numpy
 
+. Seaborn
+
+. Json
+
+## Iniciando as Análises Exploratórias
+
+ - Ao importar o arquivo json pude visualizar que havia colunas com dados aninhados, portanto, foi necessário fazer a normalização do DF json, para que todas os campos fossem separados corretamente.
+ 
+ Abaixo está o DataFrame com algumas colunas com os dados aninhados:
+ 
+ ![img-01](https://user-images.githubusercontent.com/82530745/187981166-c05dd3a4-647d-4874-959b-9de120d44f4d.png)
+ (img-01)
+ 
+ - Abaixo DataFrame normalizado:
+ 
+ ![img-02](https://user-images.githubusercontent.com/82530745/187981444-e3a21591-8b90-4ca4-84f0-90972925ec70.png)
+ (img-02)
+ 
+ ### Traduzindo as Colunas
+ 
+ - Uma vez normalizado fiz a tradução das colunas do DataFrame para facilitar o entendimento ao longo das análises. As traduções foram feitas com base no seguinte dicionário:
+ 
+ ![img-03](https://user-images.githubusercontent.com/82530745/187981612-0084be6d-b941-42ef-898f-6bdc08c5bcac.png)
+ (img-03)
